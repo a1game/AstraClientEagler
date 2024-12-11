@@ -29,7 +29,7 @@ function launchClient() {
     if (selectedClient === 'Vanilla') {
         pageUrl = `Vanilla.html`;
     } else if(selectedResolution === '1.3'){
-        window.open("https://barneycompiler.github.io/AstraClientEagler/javascript/", '_blank');
+        window.open("javascript/", '_blank');
     }else{
         pageUrl = `${selectedClient}${selectedResolution}.html`;
     }
